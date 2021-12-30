@@ -1,0 +1,8 @@
+dist: trusty
+
+jobs:
+  include:
+    - stage: build docker images
+      script:
+      - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+      - docker-compose -f docker-compose-build.yaml push

@@ -45,16 +45,16 @@ services:
     ports:
       - "8100:80"
 
-#   postgres:
-#     image: postgres
-#     ports:
-#       - '5432:5432'
-#     environment:
-#       - POSTGRES_USERNAME=postgres
-#       - POSTGRES_PASSWORD=secrect
-#       - POSTGRES_DB=HAMDA
-#     volumes:
-#       - 'postgres:/var/lib/postgresql/data'
+  postgres:
+    image: postgres
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_USERNAME=postgres
+      - POSTGRES_PASSWORD=secrect
+      - POSTGRES_DB=HAMDA
+    volumes:
+      - 'postgres:/var/lib/postgresql/data'
 
-# volumes:
-#   postgres:
+volumes:
+  postgres:
