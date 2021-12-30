@@ -3,5 +3,5 @@ docker-build:
 	docker build -t amrhassanabdullah/udagram-api-feed:v1 ./udagram-api-feed
 	docker build -t amrhassanabdullah/udagram-api-user:v1 ./udagram-api-user
 	docker build -t amrhassanabdullah/udagram-reverseproxy:v1 ./udagram-reverseproxy
-	docker build -t amrhassanabdullah/udagram-reverseproxy:v1 ./udagram-reverseproxy
+	docker build -t amrhassanabdullah/udagram-frontend:v1 ./udagram-frontend
 	docker push -a
