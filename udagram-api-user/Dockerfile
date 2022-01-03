@@ -7,5 +7,7 @@ COPY package*.json ./
 RUN npm ci 
 # Bundle app source
 COPY . .
+ENV NODE_OPTIONS=--max_old_space_size=4096
 EXPOSE 8080
+
 CMD [ "npm", "run", "prod" ]
