@@ -3,3 +3,4 @@ env-secret.yaml
 docker-acess.yaml
 aws-secret.yaml
 telepresence.log
+.idea
