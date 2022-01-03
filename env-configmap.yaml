@@ -4,7 +4,7 @@ metadata:
   name: env-config
 data:
   # property-like keys; each key maps to a simple value
-  AWS_BUCKET: "arn:aws:s3:::test-677336907491-dev"
+  AWS_BUCKET: "test-677336907491-dev"
   AWS_REGION: "us-east-1"
   AWS_PROFILE: "default"
   JWT_SECRET: "testing"
